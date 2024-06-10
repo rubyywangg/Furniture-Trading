@@ -1,0 +1,128 @@
+/* CSS Example */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #DFD5A5;
+}
+
+.header img {
+  height: 60px;
+  width: 60px;
+}
+
+.header-icon-bar {
+  display: flex;
+  align-items: center;
+}
+
+.header-links {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header-item {
+  margin-right: 15px;
+}
+
+.header-item:last-child {
+  margin-right: 0;
+}
+
+.header-icon {
+  height: 24px;
+  width: 24px;
+}
+
+.header-item img {
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  background-color: #8e847b; /* Background color similar to the screenshot */
+  color: #e4d2a6;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 30px; /* Reduced padding */
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.left-side {
+  max-width: 50%;
+  padding-right: 50px; /* Reduced padding-right */
+  margin-left: -50px; /* Adjust margin-left to move further left */
+}
+
+.left-side h1 {
+  margin: auto;
+  font-size: 10em;
+  color: #d9c68d;
+  font-family: 'Poppins', sans-serif;
+  line-height: 0.9;
+}
+
+.left-side p {
+  padding-bottom: 15px;
+  font-size: 1.2em;
+  margin: 10px 0 20px 0;
+  color: #d9c68d; 
+}
+
+.cta-button {
+  background-color: #3c5c3c; 
+  color: white; 
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.3em;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+}
+
+.cta-button .icon {
+  margin-right: 10px;
+}
+
+.cta-button:hover {
+  background-color: #2e4a2e; /* Darker shade for hover effect */
+}
+
+.right-side {
+  max-width: 45%;
+  padding: 40px;
+}
+
+.right-side p {
+  font-size: 1.2em;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.feature img {
+  width: 70px;
+  height: 70px;
+  padding-left: 100px;
+}
+
+.feature p {
+  margin-left: 20px;
+}
