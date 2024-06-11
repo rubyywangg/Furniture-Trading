@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
-  background-color: #DFD5A5;
+  background-color: white;
 }
 
 .header img {
@@ -46,8 +46,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 800;
-  background-color: #8e847b; /* Background color similar to the screenshot */
-  color: #e4d2a6;
+  background-color: white; /* Background color similar to the screenshot */
+  color: black;
 }
 
 .container {
@@ -67,7 +67,8 @@ body {
 .left-side h1 {
   margin: auto;
   font-size: 10em;
-  color: #d9c68d;
+  padding-top: 50px;
+  color: black;
   font-family: 'Poppins', sans-serif;
   line-height: 0.9;
 }
@@ -76,26 +77,41 @@ body {
   padding-bottom: 15px;
   font-size: 1.2em;
   margin: 10px 0 20px 0;
-  color: #d9c68d; 
+  padding-left: 10px;
+  color: black; 
 }
 
 .cta-button {
   background-color: #3c5c3c; 
   color: white; 
   border: none;
-  padding: 10px 20px;
-  font-size: 1.3em;
+  padding: 15px 25px;
+  font-size: 1.4em;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   margin-top: 50px;
   font-family: 'Roboto', sans-serif;
   font-weight: 800;
+  text-decoration: none; /* Remove underline */
+  outline: none; /* Remove the blue outline */
+  margin-left: 10px;
+}
+
+.cta-button:focus,
+.cta-button:active {
+  outline: none; /* Ensure the blue outline is removed on focus and active state */
+}
+
+a:focus,
+a:active {
+  outline: none; /* Remove the blue outline from the anchor tag */
 }
 
 .cta-button .icon {
   margin-right: 10px;
+  
 }
 
 .cta-button:hover {

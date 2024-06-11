@@ -1,0 +1,43 @@
+/* Listings.css */
+.listings-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card-body {
+    padding: 15px;
+}
+.card-title {
+    font-size: 1.25em;
+    margin: 0 0 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.card-description {
+    font-size: 0.9em;
+    color: #666;
+    margin: 0 0 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.card-price {
+    font-size: 1.1em;
+    color: #007bff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}

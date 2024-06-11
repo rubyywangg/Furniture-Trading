@@ -43,9 +43,8 @@ function MainBody() {
     <div>
       <div class="container">
         <div class="left-side">
-          <p>Reliable Campus Marketplace: Buy and Sell with Confidence</p>
           <h1>ROOMIE RESALE</h1>
-          <button class="cta-button">Create Account</button>
+          <a href='listings'><button class="cta-button">Create Account</button></a>
         </div>
         <div class="right-side">
           <div class="feature">
