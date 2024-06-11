@@ -1,0 +1,74 @@
+.chatbox-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #00bf63, #009e52); /* Gradient background */
+    color: white; /* Text color */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.chatbox-container h2 {
+    margin: 0 0 10px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.chatbox-messages {
+    flex-grow: 1;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    max-width: 80%; /* Ensure messages don't take up the full width */
+    word-wrap: break-word; /* Ensure long words break to the next line */
+}
+
+.user-message {
+    align-self: flex-end;
+    background-color: #006f4e; /* Different color for user messages */
+    margin-left: auto;
+}
+
+.profile-message {
+    align-self: flex-start;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: auto;
+}
+
+.chatbox-input {
+    display: flex;
+    align-items: center;
+}
+
+.chatbox-input input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.chatbox-input button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #004d39; /* Darker shade of green */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Roboto', sans-serif;
+}
+
+.chatbox-input button:hover {
+    background-color: #003826; /* Even darker on hover */
+}

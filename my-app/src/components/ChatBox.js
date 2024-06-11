@@ -4,7 +4,7 @@ import './ChatBox.css'
 function ChatBox() {
   return (
     <div className="chatbox-container">
-      <h2>Chat</h2>
+      <h2>Dennis</h2>
       <div className="chatbox-messages">
         <div className="message user-message">
           <p>User: Hi, is the chair still available?</p>
