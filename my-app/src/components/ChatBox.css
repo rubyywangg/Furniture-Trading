@@ -6,7 +6,7 @@
     height: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(135deg, #00bf63, #009e52); /* Gradient background */
+    background: linear-gradient(135deg, #3c5c3c, #2e482e); /* Gradient background */
     color: white; /* Text color */
     padding: 20px;
     box-sizing: border-box;
@@ -34,7 +34,7 @@
 
 .user-message {
     align-self: flex-end;
-    background-color: #006f4e; /* Different color for user messages */
+    background-color: #3c5c3c; /* Different color for user messages */
     margin-left: auto;
 }
 
@@ -56,13 +56,15 @@
     border-radius: 5px 0 0 5px;
     outline: none;
     font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f3; /* Light grey-green background */
+    color: #3c5c3c; /* Text color matching the green theme */
 }
 
 .chatbox-input button {
     padding: 10px 20px;
     border: none;
     border-radius: 0 5px 5px 0;
-    background-color: #004d39; /* Darker shade of green */
+    background-color: #2e482e; /* Darker shade of green */
     color: white;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -70,5 +72,5 @@
 }
 
 .chatbox-input button:hover {
-    background-color: #003826; /* Even darker on hover */
+    background-color: #213421; /* Even darker on hover */
 }

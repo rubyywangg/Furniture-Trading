@@ -67,7 +67,8 @@
 .item-details img {
     width: 400px; /* Adjust the size as needed */
     height: auto;
-    border: 10px solid #00bf63; /* Add border with color and thickness */
+    border: 10px solid #fff; /* Add border with color and thickness */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow */
     border-radius: 5px; /* Optional: Add rounded corners to the border */
     margin-bottom: 10px; /* Space between the image and the price */
 }
@@ -75,7 +76,7 @@
 .price {
     font-size: 18px;
     font-weight: bold;
-    color: #4caf50; /* Green color for price */
+    color: #3C5C3C; /* Green color for price */
     margin-bottom: 10px;
 }
 
@@ -94,7 +95,7 @@
 }
 
 .contact-button {
-    background-color: #00bf63; /* Blue background */
+    background-color: #3C5C3C; 
     color: white;
     border: none;
     padding: 10px 20px;
@@ -154,7 +155,7 @@
     right: 20px; /* Adjust as needed */
     width: 300px; /* Adjust as needed */
     height: 400px; /* Adjust as needed */
-    border: 2px solid #00bf63;
+    border: 2px solid #3C5C3C;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background: white;
