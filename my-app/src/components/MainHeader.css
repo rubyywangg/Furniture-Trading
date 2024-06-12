@@ -1,14 +1,30 @@
-/* NavBar.css */
+/* MainHeader.css */
 .NavBar {
+    width: 100%;
     background-color: #fff;
     padding: 10px 20px;
- 
+    border-bottom: solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow for visual effect */
 }
 
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto; /* Center the header content */
+}
+
+.header-message {
+    font-family: monospace;
+    font-size: xx-large; /* Increase font size */
+    font-weight: bold;   /* Make the text bold */
+    color: #2e4a2e;      /* Change text color to a dark green */
+    padding: 10px 20px;  /* Add padding */
+    margin: 0;           /* Adjust margin */
+    text-align: center;  /* Center align the text */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
 .nav img {
