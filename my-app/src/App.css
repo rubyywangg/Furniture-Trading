@@ -104,6 +104,10 @@ body {
   outline: none; /* Ensure the blue outline is removed on focus and active state */
 }
 
+a {
+  text-decoration: none;
+}
+
 a:focus,
 a:active {
   outline: none; /* Remove the blue outline from the anchor tag */
